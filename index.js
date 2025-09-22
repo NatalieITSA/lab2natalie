@@ -1,23 +1,23 @@
-// Simple arithmetic functions
+// // Simple arithmetic functions
 
-function add(a, b) {
-  return a + b;
-}
+// function add(a, b) {
+//   return a + b;
+// }
 
-function subtract(a, b) {
-  return a - b;
-}
+// function subtract(a, b) {
+//   return a - b;
+// }
 
-// Run sample operations if executed directly
-if (require.main === module) {
-  console.log("2 + 3 =", add(2, 3));
-  console.log("5 - 2 =", subtract(5, 2));
-}
+// // Run sample operations if executed directly
+// if (require.main === module) {
+//   console.log("2 + 3 =", add(2, 3));
+//   console.log("5 - 2 =", subtract(5, 2));
+// }
 
-// Export functions for testing
-module.exports = { add, subtract };
+// // Export functions for testing
+// module.exports = { add, subtract };
 
-/*
+
 // Simple arithmetic functions
 
 function add(a, b) {
@@ -49,4 +49,3 @@ if (require.main === module) {
 // Export functions for testing
 module.exports = { add, subtract, multiply, divide };
 
-*/
