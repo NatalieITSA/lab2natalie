@@ -1,0 +1,14 @@
+
+{
+  "name": "Lab2_Natalie",
+  "version": "1.0.0",
+  "description": "DevOps Lab 2 GitHub and GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "ITSA",
+  "license": "Open Source"
+}
+
