@@ -1,7 +1,6 @@
 const { add, subtract } = require("./index");
 
-// Simple tests
-let testsPassed = true;
+// Simple tests 
 
 try {
   if (add(2, 3) !== 5) testsPassed = false;
